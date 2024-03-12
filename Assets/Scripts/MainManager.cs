@@ -75,5 +75,6 @@ public class MainManager : MonoBehaviour
     {
         m_GameOver = true;
         GameOverText.SetActive(true);
+        SceneManager.LoadScene(0);
     }
 }
